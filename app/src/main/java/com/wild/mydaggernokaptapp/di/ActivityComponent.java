@@ -13,7 +13,8 @@ import dagger.android.AndroidInjector;
 @Component(
         modules = {
                 AndroidInjectionModule.class,
-                ActivityModule.class
+                ActivityModule.class,
+                ToolsModule.class
         }
 )
 public abstract class ActivityComponent implements AndroidInjector<MainActivity> {
